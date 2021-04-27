@@ -1,0 +1,25 @@
+---
+title: "Test workflowR notebook"
+output: rmdformats::readthedown
+author: Christina Fitzsimmons
+date: "Last Updated 2021-04-26"
+---
+
+The purpose of this notebook is to test of the workflowr notebook system. 
+
+```{r}
+library(tidyverse)
+library(workflowr)
+
+# wflow_git_config()
+# wflow_start("workflowr_test")
+wflow_status()
+wflow_build()
+wflow_git_commit(all = TRUE)
+wflow_publish(c("analysis/index.Rmd", "analysis/about.Rmd", "analysis/license.Rmd"),
+              "Publish the initial files for myproject")
+wflow_use_github("FitzsimmonsCM")
+```
+
+
+
