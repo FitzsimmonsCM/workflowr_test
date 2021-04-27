@@ -1,6 +1,7 @@
 ---
-title: "Home"
+title: "FitzsimmonsCM workflowR test website"
 site: workflowr::wflow_site
+author: "Christina M. Fitzsimmons"
 output:
   workflowr::wflow_html:
     toc: true
@@ -8,6 +9,8 @@ editor_options:
   chunk_output_type: console
 ---
 
-Welcome to my research website.
+Welcome! This is a test website for workflowr
 
-Click on this [link](first-analysis.html) to see mock analysis results.
+Setting up dummy analysis:
+
+* Click on this link [mtcars](first-analysis.html) to see mock analysis results.
