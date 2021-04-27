@@ -13,12 +13,23 @@ library(workflowr)
 
 # wflow_git_config()
 # wflow_start("workflowr_test")
+
+# check the status of your changes
 wflow_status()
+
+# builds the changes
 wflow_build()
+
+#commits changes to github without publishing
 wflow_git_commit(all = TRUE)
+
+# publishes the changes
 wflow_publish(c("analysis/index.Rmd", "analysis/about.Rmd", "analysis/license.Rmd"),
               "Publish the initial files for myproject")
+
+# connects the local version control to my github repository and pushes the changes
 wflow_use_github("FitzsimmonsCM")
+wflow_git_push()
 ```
 
 
