@@ -7,4 +7,4 @@ editor_options:
   chunk_output_type: console
 ---
 
-Describe your project.
+The purpose of this notebook is to test the functionality of workflowr for reproducible data science using the Rnotebook format. This sample workflowr project allows us to play with themes, organization, and the workflowr syntax before deploying this to other projects. 
