@@ -14,3 +14,23 @@ Welcome! This is a test website for workflowr
 Setting up dummy analysis:
 
 * Click on this link [mtcars](first-analysis.html) to see mock analysis results.
+
+# Introduction
+
+## 1.1 Import Data
+## 1.1 Pre-process Data
+
+# RNAseq
+## Library Prep
+## Sequencing
+## Post-processing
+## Data analysis
+
+# m6A-IP
+
+# Nanopore
+
+# SLAMseq / BRIC-seq
+
+# Ribo-seq
+
